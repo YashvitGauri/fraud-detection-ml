@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import sklearn 
 
 model = joblib.load("fraud_detection_pipeline.pkl")
 
